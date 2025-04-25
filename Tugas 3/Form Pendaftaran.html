@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Form Pendaftaran</h1>
+        <h3>Isiliah form di bawah ini</h3>
+        <form>
+            <!---Bagian Input Email & Password--->
+            <section>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+            </section>
+
+
+            <!---Bagian Textfield--->
+            <section>
+                <label for="Nama">Nama:</label><br>
+                <input type="text" id="Nama" name="Nama"><br>
+            </section>
+		
+
+            <!---Bagian Textfield--->
+            <section>
+                <label for="Hobi">Hobi:</label><br>
+                <input type="text" id="Hobi" name="Hobi"><br>
+            </section>
+
+            <!---Bagian Date--->
+            <section>
+                <label for="Date">TTL:</label><br>
+                <input type="date"id="TTL" name="Tanggal Lahir">
+            </section>
+
+            <!---Bagian Dropdown--->
+            <section>
+                <label for="options">Agama Anda:</label><br>
+                <select id="options" name="religion">
+                    <option value="">Pilih</option>
+                    <option value="katolik">Katolik</option>
+                    <option value="kp">Kristen Protestan</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="islam">Islam</option>
+                    <option value="hindu">Hindu</option>
+                </select>
+            </section>
+
+
+            <!---Bagian Radio Button--->
+            <section>
+                <p>Gender Anda:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Pria</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Wanita</label><br>
+            </section>
+
+
+            <!---Bagian Checklist--->
+            <section>
+                <p>Select Pilihan Jalur: (Pilihan bisa lebih dari 1)</p>
+                <input type="checkbox" id="ab1" name="path" value="Data Matrix">
+                <label for="ab1"> Data Matrix</label><br>
+                <input type="checkbox" id="ab2" name="path" value="Data Enchanter">
+                <label for="ab2"> Data Enchanter</label><br>
+                <input type="checkbox" id="ab3" name="path" value="Data Wiper">
+                <label for="ab3"> Data Wiper</label><br>
+            </section>
+
+
+            <!---Bagian Tombol Submit & Reset--->
+            <section>
+                <input type="submit" value="Submit"><br>
+                <input type="reset" value="Reset"><br>
+            </section>
+
+
+            <!---Bagian Text Area---->
+            <section>
+    		<label for="Deskripsi">Deskripsi:</label><br>
+    		<textarea id="comments" name="comments" rows="4" cols="50" placeholder="Deskripsi mengenai anda"></textarea>
+            </section>
+
+
+        </form>
+    </main>
+</body>
+</html>
