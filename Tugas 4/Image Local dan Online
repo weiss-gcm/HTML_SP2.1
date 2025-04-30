@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Local dan Online</title>
+    </head>
+    <body>
+        <h2>Image Local dan Online</h2>
+        <section>
+            <p>Local image:</p>
+            <p>Core i5-12600K CPU</p>
+            <img src="cpu.jpg" alt="Core i5-12600K CPU" width=500 height=400>
+            <p>Online Image:</p>
+            <p>Core i7-14700K CPU</p>
+            <img src="https://sm.pcmag.com/t/pcmag_me/review/i/intel-core/intel-core-i7-14700k_tvsx.1920.jpg" alt="Core i7-14700K CPU" width=700 height=400>
+        </section>
+    </body>  
+</html>
