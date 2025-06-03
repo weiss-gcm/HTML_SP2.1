@@ -1,0 +1,88 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #4b365a;
+  color: #ffffff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #f8f9fa;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #4b365a;
+  margin: 20px 0;
+}
+
+table {
+  margin: 20px auto;
+  color: #ffffff;
+  background-color: #343a40;
+  border-collapse: collapse;
+  border-radius: 8px;
+  width: 80%;
+}
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #4b365a;
+}
+table th {
+  background-color: #4b365a;
+}
+
+input[type=text],
+input[type=radio],
+select,
+textarea {
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #4b365a;
+  color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #4b365a;
+  color: #333;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  background-color: #4b365a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+label {
+  color: #4b365a;
+  font-weight: bold;
+}
+
+section, footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #4b365a;
+}/*# sourceMappingURL=styles.css.map */
