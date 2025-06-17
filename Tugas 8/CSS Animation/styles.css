@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+
+  text-orientation: mixed;
+  font-size: 40px;
+  font-family: 'Yugothic UI';
+}
+
+h1 {
+  color: #A2BDF4;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+p {
+  color: #A2BDF4;
+  font-family: Arial, Helvetica, sans-serif;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+h3
+{
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: #A2BDF4;
+}
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #5785F6;
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #BFB2F7;
+}
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: #B8C3F9;
+}
+#box4 {
+  width: 100px;
+  height: 100px;
+  background-color: #93B8EF;
+}
+#box5 {
+  width: 100px;
+  height: 100px;
+  background-color: #AAE9FC;
+}
+
+@keyframes text {
+0%  {color: #A2BDF4;}
+10% {color: #5785F6;}
+20% {color: #BFB2F7;}
+30% {color: #B8C3F9;}
+40% {color: #93B8EF;}
+50% {color: #AAE9FC;}
+60% {color: #CBF1DC;}
+70% {color: #BDEEE9;}
+80% {color: #C2B9F7;}
+90% {color: #A8A5F7;}
+100% {color: #798FF9;}
+}
+
+a {
+  color: #A2BDF4;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  
+}
+
+#box, #box1, #box2, #box3, #box4, #box5 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+    
+@keyframes squareMove {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(1800px) translateY(0);
+  }
+  50% {
+    transform: translateX(1800px) translateY(900px);
+  }
+  75% {
+    transform: translateX(0) translateY(900px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+#box {
+  animation: squareMove 1s infinite 6s;
+}
+#box1 {
+  animation: squareMove 2s infinite 5s;
+}
+#box2 {
+  animation: squareMove 3s infinite 4s;
+}
+ #box3 {
+   animation: squareMove 4s infinite 3s;
+}
+#box4 {
+  animation: squareMove 5s infinite 2s;
+}
+#box5 {
+  animation: squareMove 6s infinite 1s;
+}
+
+#middle_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px
+}
