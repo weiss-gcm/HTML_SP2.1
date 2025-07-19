@@ -8,17 +8,10 @@
     <title>Homepage</title>
 </head>
 <body class="evolve">
-    <header>
-        <h1>NCNN</h1>
-	<nav>
-	  <div class="nav_links">
-                <a href="index.html" id="link_v">Upscale</a>
-                <a href="register.html" id="link_v"> Sample Image</a>
-                <a href="about.html" id="link_v">About</a>
-		</div>
-	</nav>
-    </header>
-			
+    
+    <!-- Page Codename: Charles -->
+    <!-- Header Modular -->
+    <div id="inject-header"></div>
     <div class="envy_flex_layout">
         <div class="envy_side_image">
             <img src="/img/DECO.png" alt="Side Illustration">
@@ -93,42 +86,10 @@
         </main>
     </div>
     <div class="spacing"></div>
-    <footer class="footer-background">
-        <div class="footer-grid">
-            <div class="footer-section">
-            <h3 id="foot_link">Open Source</h3>
-                <ul class="footer-links">
-                    <li><a href="https://github.com/Tencent/Real-CUGAN">Real-ESRGAN</a></li>
-                    <li><a href="https://github.com/Tencent/Real-CUGAN">Real-CUGAN</a></li>
-                    <li><a href="https://github.com/Tencent/Real-CUGAN">Waifu2x</a></li>
-                    <li><a href="https://github.com/Tencent/ncnn">NCNN Framework</a></li>
-                </ul>
-            </div>
+    <div class="spacing"></div>
 
-            <div class="footer-section">
-            <h3 id="foot_link">Documentation</h3>
-                <ul class="footer-links">
-                    <li><a href="#">Getting Started</a></li>
-                    <li><a href="#">API Reference</a></li>
-                    <li><a href="#">Tutorials</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-            <h3 id="foot_link">Community</h3>
-                <ul class="footer-links">
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">Discord</a></li>
-                    <li><a href="#">Forums</a></li>
-                    <li><a href="#">Contributing</a></li>
-                </ul>
-            </div>
-            <div class="footer-content">
-                <p>Release 20250503-305837F</p>
-                <p>&copy; 2025 NCNN Project. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer Modular -->
+    <div id="inject-footer"></div>
+    <script src="injector.js"></script>
 </body>
 </html>
