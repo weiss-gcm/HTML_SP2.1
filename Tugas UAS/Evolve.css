@@ -416,8 +416,7 @@ h3 {
     #envy_big_button {
         width: 100%;
         min-width: unset;
-        font-size: 1.1em;
-        padding: 18px 0; 
+        font-size: 1.1em; 
         margin: 10px;
         padding-top: 50px;
     }
@@ -691,7 +690,6 @@ h3 {
         width: 100%;
         min-width: unset;
         font-size: 1.1em;
-        padding: 18px 0; 
     }
     .envy_big_button {
         width: 100%;
