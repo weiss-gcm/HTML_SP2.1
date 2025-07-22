@@ -137,6 +137,8 @@ h3 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font: bold 16px Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
 
 .central_button_container #central_button:hover {
